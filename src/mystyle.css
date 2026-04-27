@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.navbar1 input{
+  border: 2px solid black;
+ border-radius: 14px;
+ padding: 1px 17px;
+ width: 129px;
+}
+.active {
+  background-color: #07ded3;
+   
+}
+
+.navbar1 {
+  overflow: hidden;
+  background-color: #333;
+   border-radius: 18px;
+}
+
+/* Navigation links */
+.navbar1 a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav1 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav1 .subnavbtn1 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar1 a:hover, .subnav1:hover .subnavbtn1 {
+  background-color: #07d0de;
+   color:red
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav1-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #07d0de;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav1-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav1-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav1:hover .subnav1-content {
+  display: block;
+}
+.search{
+  float:right;
+  color: white;
+  padding:12px 75px;
+}

@@ -1,0 +1,42 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 18px;
+}
+ul input{
+  border: 2px solid black;
+ border-radius: 14px;
+ padding: 1px 17px;
+ width: 129px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #7c8280;
+  
+  color:red
+}
+
+.active {
+  background-color: #07ded3;
+}
+.search{
+  float:right;
+  color: white;
+  padding:12px 75px;
+}
